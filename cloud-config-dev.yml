@@ -1,1 +1,12 @@
-lucky-word: mmb
+spring:
+  redis:
+    password: redistest2017
+    database: 0  
+    port: 6379  
+    pool:
+      max-idle: 8  
+      min-idle: 0  
+      max-active: 8  
+      max-wait: -1  
+    host: 10.0.50.4
+    timeout: 0
