@@ -8,5 +8,5 @@ spring:
       min-idle: 0  
       max-active: 100  
       max-wait: 10  
-    host: 10.0.50.4
+    host: 10.0.50.6
     timeout: 0
