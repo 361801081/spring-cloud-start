@@ -6,7 +6,7 @@ spring:
     pool:
       max-idle: 8  
       min-idle: 0  
-      max-active: 8  
-      max-wait: -1  
+      max-active: 100  
+      max-wait: 10  
     host: 10.0.50.4
     timeout: 0
